@@ -1,3 +1,7 @@
+Legyen benne: 1 szöveges mező. legördülő 3 elemmel, 2db checkbox, 3db radio gomb, 1 text area, 4 gomb
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +10,57 @@
     <title>Gyakorlás 10.02</title>
 </head>
 <body>
+    <form method="get">
+    <br>
+    <label for="név">Teljes név:</label>
+    <input type="text" id="név" id="név" value=""><br>
+
+    <br>
+        
+        <select name="dropdown">
+        <option value="o1">Német</option>
+        <option value="o2">Francia</option>
+        <option value="o3">Angol</option>
+    </select><br>
+
+
+    <br><input type="checkbox" name="csekk1" checked>
+    <label>Felelés</label>
+    <input type="checkbox" name="csekk2" checked>
+    <label>Dolgozat</label><br>
+
+
+    <br>
+    <label for="gombok">Reggeli</label>
+    <input type="radio" name="gombok" value="_1"><br>
+    <label for="gombok">Ebéd</label>
+    <input type="radio" name="gombok" value="_2"><br>
+    <label for="gombok">Vacsora</label>
+    <input type="radio" name="gombok" value="_3" checked><br>
+    <br>
+
+    <br>
+    <textarea name="area" value=""></textarea>
+    <br>
+
+    <button type="button" name="kulbutton">Kattints</button>
+    <input type="reset" name="reset">
+    <input type="submit" name="submit" value="elküldés">
+    <input type="button" name="button" value="Fasz">
+
+
+</form>
+    
+
+
+
+
+
+
+
+
+
+
     
 </body>
 </html>
